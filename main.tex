@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{caption}
+\usepackage{titlesec}
+
+\titleformat{\section}{\normalfont\Large\bfseries\color{blue}}{}{0em}{}
+
+\begin{document}
+
+\section*{Academic Record of Students (June 2025)}
+
+\begin{table}[h!]
+\centering
+\captionsetup{font=small, labelfont=bf}
+\caption{Summary of Marks Obtained in Three Subjects}
+
+\rowcolors{2}{gray!10}{white}
+\begin{tabularx}{\textwidth}{|c|c|X|c|c|c|}
+\hline
+\textbf{S.No} & \textbf{USN} & \textbf{Student Name} & \textbf{Subject 1} & \textbf{Subject 2} & \textbf{Subject 3} \\
+\hline
+1 & 4CS22BC001 & Arjun Kumar & 92 & 85 & 88 \\
+2 & 4CS22BC002 & Bhavna Das & 75 & 64 & 79 \\
+3 & 4CS22BC003 & Chitra Sen & 81 & 70 & 85 \\
+\hline
+\end{tabularx}
+\end{table}
+
+\end{document}
